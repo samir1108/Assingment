@@ -1,9 +1,9 @@
 import ReactDOM from "react-dom/client";
 import { items } from "./data";
-import WrappedListComponent from "./List";
+import ListComponent from "./WrappedListComponent";
 
 //import List from "./List.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<WrappedListComponent items={items} />);
+root.render(<ListComponent items={items} />);

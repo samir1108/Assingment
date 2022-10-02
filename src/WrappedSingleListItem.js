@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { memo } from "react";
+
 const WrappedSingleListItem = ({
   index,
   isSelected,
@@ -21,4 +23,5 @@ WrappedSingleListItem.propTypes = {
   SetSelectedIndex: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired,
 };
-export default WrappedSingleListItem;
+const SingleList = memo(WrappedSingleListItem);
+export default SingleList;
