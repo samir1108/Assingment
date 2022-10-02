@@ -6,7 +6,7 @@ Ans-This List component takes items as a prop where items is  an array then it m
 Ans-I have answered this question in src-problem.js for better readability.<br />
 
 
-NOTE-data.js is for refernce purpose. <br />
+NOTE-data.js is for reference purpose. <br />
 
 
 This is for reference .
